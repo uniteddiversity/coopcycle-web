@@ -1,6 +1,7 @@
 {
   "common": {
     "CART_TITLE": "Cart",
+    "CART_WIDGET_BUTTON": "My order",
     "DASHBOARD_UNASSIGNED": "Unassigned"
   }
 }

@@ -118,7 +118,7 @@ class Cart extends React.Component
     let { items, toggled, errors, date, geohash, address, loading } = this.state,
         cartContent,
         { isMobileCart, availabilities, validateCartURL } = this.props,
-        cartTitleKey = isMobileCart ? 'cart.widget.button' : 'Cart'
+        cartTitleKey = isMobileCart ? i18n.t('CART_WIDGET_BUTTON') : i18n.t('Cart')
 
     if (items.length > 0) {
       let cartItemComponents = items.map((item, key) => {
@@ -180,7 +180,7 @@ class Cart extends React.Component
           <div className="panel-heading cart-heading" onClick={ this.onHeaderClick }>
             <span className="cart-heading--items">{ itemCount }</span>
             <span className="cart-heading--total"><i className={ toggled ? "fa fa-chevron-up" : "fa fa-chevron-down"}></i></span>
-            { this.props.i18n[cartTitleKey] }
+            { i18n.t('CART_TITLE') }
           </div>
           <div className="panel-body">
             { this.renderWarningAlerts(warningAlerts) }
