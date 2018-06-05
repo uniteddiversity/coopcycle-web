@@ -271,12 +271,6 @@ order.status.DELIVERED: Delivered
 order.status.PAYMENT_ERROR: Payment Error
 
 order.state.cart: Cart
-order.state.new: New
-order.state.accepted: Accepted
-order.state.fulfilled: Delivered
-order.state.ready: Ready
-order.state.cancelled: Cancelled
-order.state.refused: Refused
 
 order.list.total: Total
 order.list.createdAt: Created at

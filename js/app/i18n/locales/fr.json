@@ -4,6 +4,12 @@
     "CART_WIDGET_BUTTON": "Commander",
     "DASHBOARD_UNASSIGNED": "Non assignées",
     "ENABLED": "Activé",
-    "DISABLED": "Désactivé"
+    "DISABLED": "Désactivé",
+    "new": "Nouveau",
+    "accepted": "Accepté",
+    "refused":  "Refusé",
+    "fulfilled":  "Livrée",
+    "cancelled":  "Annulée",
+    "ready":  "Prête"
   }
 }

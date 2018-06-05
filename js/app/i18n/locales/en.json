@@ -4,6 +4,12 @@
     "CART_WIDGET_BUTTON": "My order",
     "DASHBOARD_UNASSIGNED": "Unassigned",
     "ENABLED": "Enabled",
-    "DISABLED": "Disabled"
+    "DISABLED": "Disabled",
+    "new": "New",
+    "accepted": "Accepted",
+    "refused":  "Refused",
+    "fulfilled":  "Delivered",
+    "cancelled":  "Cancelled",
+    "ready":  "Ready"
   }
 }
