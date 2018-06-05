@@ -2,6 +2,8 @@
   "common": {
     "CART_TITLE": "Cart",
     "CART_WIDGET_BUTTON": "My order",
-    "DASHBOARD_UNASSIGNED": "Unassigned"
+    "DASHBOARD_UNASSIGNED": "Unassigned",
+    "ENABLED": "Enabled",
+    "DISABLED": "Disabled"
   }
 }

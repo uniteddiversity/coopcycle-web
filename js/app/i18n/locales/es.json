@@ -2,6 +2,8 @@
   "common": {
     "CART_TITLE": "Cesta",
     "CART_WIDGET_BUTTON": "Mi pedido",
-    "DASHBOARD_UNASSIGNED": "No asignado"
+    "DASHBOARD_UNASSIGNED": "No asignado",
+    "ENABLED": "Activado",
+    "DISABLED": "Desactivado"
   }
 }

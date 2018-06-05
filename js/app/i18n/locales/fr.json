@@ -2,6 +2,8 @@
   "common": {
     "CART_TITLE": "Panier",
     "CART_WIDGET_BUTTON": "Commander",
-    "DASHBOARD_UNASSIGNED": "Non assignées"
+    "DASHBOARD_UNASSIGNED": "Non assignées",
+    "ENABLED": "Activé",
+    "DISABLED": "Désactivé"
   }
 }

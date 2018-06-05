@@ -148,8 +148,6 @@ localBusiness.form.orderingDelayMinutes: Délai additionel pour les prises de co
 localBusiness.form.orderingDelayMinutes.help: Utilisez ces champs pour ajouter un délai avant la commande. N'influe pas sur le temps réservé à la préparation (20 minutes) ni sur le temps réservé à la course (25 minutes).
 localBusiness.form.orderingDelayDays: Jour(s)
 localBusiness.form.orderingDelayHours: Heure(s)
-localBusiness.form.enabled: Activé
-localBusiness.form.disabled: Désactivé
 localBusiness.form.name: Nom
 localBusiness.form.legalName: Nom légal
 localBusiness.form.website: Site web
