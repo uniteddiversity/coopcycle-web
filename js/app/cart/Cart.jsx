@@ -201,7 +201,7 @@ class Cart extends React.Component
               { this.renderTotal() }
               <hr />
               <a href={validateCartURL} className={btnClasses.join(' ')}>
-                { loading && <i className="fa fa-spinner fa-spin"></i> }  <span>Commander</span>
+                { loading && <i className="fa fa-spinner fa-spin"></i> }  <span>{ i18n.t('CART_WIDGET_BUTTON') }</span>
               </a>
             </div>
           </div>
