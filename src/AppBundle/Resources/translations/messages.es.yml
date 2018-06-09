@@ -22,14 +22,9 @@ adminDashboard.dashboard.importErrors: Importar errores
 adminDashboard.dashboard.importTasks: Importar tareas
 adminDashboard.dashboard.exportTasks: Export tareas
 adminDashboard.dashboard.filters: Filtros
-adminDashboard.dashboard.cancel: Cancelar
 adminDashboard.dashboard.deleteTaskGroup: Eliminar grupo de tareas
-adminDashboard.dashboard.display: Mostrar
 adminDashboard.dashboard.displayByGroups: Mostrar por grupo
 adminDashboard.dashboard.displayAll: Mostrar todas
-adminDashboard.dashboard.add: Añadir
-adminDashboard.dashboard.addUserToPlanning: Añadir un usuario al plan
-adminDashboard.dashboard.courier: Mensajero
 
 adminDashboard.deliveries.title: Entregas
 adminDashboard.deliveries.createNew: Crear nueva entrega
@@ -144,7 +139,6 @@ delivery.createNew: Crear nueva entrega
 help.title: Ayuda
 help.home: Inicio
 
-dashboard.assigned: Asignado
 
 norestaurantfound: No hay ningún restaurante abierto a ésta hora!<br>Pruba un horario distinto.
 

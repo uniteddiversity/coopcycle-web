@@ -10,6 +10,12 @@
     "refused":  "Refusé",
     "fulfilled":  "Livrée",
     "cancelled":  "Annulée",
-    "ready":  "Prête"
+    "ready":  "Prête",
+    "DASHBOARD_ASSIGNED": "Assignées",
+    "ADMIN_DASHBOARD_COURIER": "Coursier",
+    "ADMIN_DASHBOARD_CANCEL": "Annuler",
+    "ADMIN_DASHBOARD_ADD": "Ajouter",
+    "ADMIN_DASHBOARD_ADDUSER_TO_PLANNING": "Ajouter un utilisateur au planning",
+    "ADMIN_DASHBOARD_DISPLAY": "Affichage"
   }
 }
