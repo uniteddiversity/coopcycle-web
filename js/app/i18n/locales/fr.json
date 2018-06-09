@@ -16,6 +16,18 @@
     "ADMIN_DASHBOARD_CANCEL": "Annuler",
     "ADMIN_DASHBOARD_ADD": "Ajouter",
     "ADMIN_DASHBOARD_ADDUSER_TO_PLANNING": "Ajouter un utilisateur au planning",
-    "ADMIN_DASHBOARD_DISPLAY": "Affichage"
+    "ADMIN_DASHBOARD_DISPLAY": "Affichage",
+    "ADMIN_DASHBOARD_CLICK_FOR_DETAILS": "Cliquez sur une commande pour l'afficher",
+    "ADMIN_DASHBOARD_ORDERS_REFUSE": "Refuser",
+    "ADMIN_DASHBOARD_ORDERS_ACCEPT": "Accepter",
+    "ADMIN_DASHBOARD_ORDERS_READY": "Prêt !",
+    "ADMIN_DASHBOARD_ORDERS_ORDER": "Commande",
+    "ADMIN_DASHBOARD_ORDERS_DISHES": "Plats",
+    "ADMIN_DASHBOARD_ORDERS_CANCEL": "Annuler",
+    "ADMIN_DASHBOARD_ORDERS_NOORDERS": "Pas de commande pour l'instant",
+    "ADMIN_DASHBOARD_USERS_SEARCHSTORE": "Rechercher un magasin…",
+    "ADMIN_DASHBOARD_USERS_SEARCHRESTAURANT": "Rechercher un restaurant…",
+    "USER_EDIT_ENABLED_LABEL": "Activé",
+    "USER_EDIT_DISABLED_LABEL": "Désactivé"
   }
 }

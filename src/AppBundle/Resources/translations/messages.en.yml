@@ -49,16 +49,10 @@ adminDashboard.stores.createNew: Create a new store
 adminDashboard.stores.form.uploadImage: Upload an image
 
 adminDashboard.orders.title: Orders
-adminDashboard.orders.order: Order
-adminDashboard.orders.dishes: Dishes
-adminDashboard.orders.refuse: Refuse
-adminDashboard.orders.accept: Accept
-adminDashboard.orders.cancel: Cancel
-adminDashboard.orders.ready: Ready!
+
 adminDashboard.orders.previousOrders: Previous orders
 adminDashboard.orders.showCanceled: Show canceled orders
-adminDashboard.orders.noOrders: No orders yet
-adminDashboard.orders.clickForDetails: Click on an order to display details
+
 adminDashboard.orders.invoice.title: Invoice
 adminDashboard.orders.invoice.totalExcludingTax: Total excluding tax
 adminDashboard.orders.invoice.totalTax: Total tax
@@ -75,8 +69,6 @@ adminDashboard.task.form.notes.placeholder: Enter details about task's end
 adminDashboard.users.title: Users
 adminDashboard.users.edit: Edit
 adminDashboard.users.save: Save
-adminDashboard.users.searchRestaurant: Search restaurant…
-adminDashboard.users.searchStore: Search store…
 adminDashboard.users.roles: Roles
 adminDashboard.users.editUser: Edit user
 adminDashboard.users.edit.addStore: Add a store
@@ -437,8 +429,6 @@ roles.ROLE_STORE: 'Store'
 roles.ROLE_USER: 'User'
 
 user.edit.roles.help: Configure the permissions of this user <a href="%link%">Learn more</a>
-user.edit.enabled.label: Enabled
-user.edit.disabled.label: Disabled
 user.edit.enabled.help: A deactivated user will be logged out and can't login back on the platform.
 user.profile.familyName: Family name
 user.profile.givenName: Given name

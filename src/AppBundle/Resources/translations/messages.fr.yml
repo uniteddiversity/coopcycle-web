@@ -49,16 +49,12 @@ adminDashboard.stores.createNew: Créer un magasin
 adminDashboard.stores.form.uploadImage: Uploader une image
 
 adminDashboard.orders.title: Commandes
-adminDashboard.orders.order: Commande
-adminDashboard.orders.dishes: Plats
-adminDashboard.orders.refuse: Refuser
-adminDashboard.orders.accept: Accepter
-adminDashboard.orders.cancel: Annuler
-adminDashboard.orders.ready: Prêt !
+
+
 adminDashboard.orders.previousOrders: Commandes précédentes
 adminDashboard.orders.showCanceled: Afficher les commandes annulées
 adminDashboard.orders.noOrders: Pas de commande pour l'instant
-adminDashboard.orders.clickForDetails: Cliquez sur une commande pour l'afficher
+
 adminDashboard.orders.invoice.title: Facture
 adminDashboard.orders.invoice.totalExcludingTax: Total HT
 adminDashboard.orders.invoice.totalTax: Total TVA
@@ -75,8 +71,6 @@ adminDashboard.task.form.notes.placeholder: Spécifiez les détails de fin de t�
 adminDashboard.users.title: Utilisateurs
 adminDashboard.users.edit: Modifier
 adminDashboard.users.save: Enregistrer
-adminDashboard.users.searchRestaurant: Rechercher un restaurant…
-adminDashboard.users.searchStore: Rechercher un magasin…
 adminDashboard.users.roles: Rôles
 adminDashboard.users.editUser: Modifier l'utilisateur
 adminDashboard.users.edit.addStore: Ajouter un magasin
@@ -465,8 +459,6 @@ roles.ROLE_STORE: Magasin
 roles.ROLE_USER: Utilisateur
 
 user.edit.roles.help: Configurez les autorisations de l'utilisateur <a href="%link%">En savoir plus</a>
-user.edit.enabled.label: Activé
-user.edit.disabled.label: Désactivé
 user.edit.enabled.help: Un utilisateur désactivé est déconnecté et ne peut plus se connecter à la plateforme.
 user.profile.familyName: Nom
 user.profile.givenName: Prénom
