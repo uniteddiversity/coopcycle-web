@@ -296,6 +296,7 @@ demo.disclaimer: <i class="fa fa-bullhorn"></i>  Welcome on the demo of the <a t
 demo.disclaimer.subtitle: <a target="_blank" href="https://coopcycle.org/en/help/how-to-use-the-demo/"><i class="fa fa-info-circle"></i>  How to use this demo?</a>
 
 cart.widget.title: Your delivery details
+cart.widget.button: Order
 
 form.geojson_upload.file: File
 form.store_type.pricing_rule_set.label: Pricing

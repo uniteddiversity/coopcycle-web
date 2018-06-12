@@ -306,8 +306,7 @@ demo.disclaimer: <i class="fa fa-bullhorn"></i>  Bienvenue sur la démo de la pl
 demo.disclaimer.subtitle: <a target="_blank" href="https://coopcycle.org/fr/aide/comment-utiliser-la-demo/"><i class="fa fa-info-circle"></i>  Comment utiliser cette démo ?</a>
 
 cart.widget.title: Vos détails de livraison
-
-
+cart.widget.button: Commander
 
 form.geojson_upload.file: Fichier
 form.store_type.pricing_rule_set.label: Tarification
@@ -528,4 +527,3 @@ embed.delivery.confirm_message: |
   Nous avons bien enregistré votre demande. Votre course est en attente de validation.
   <br>
   Nous allons vous envoyer un email d'ici quelques minutes. Vous recevrez un second mail dès que la course est confirmée.
-

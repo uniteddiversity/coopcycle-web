@@ -2,6 +2,11 @@
   "common": {
     "CART_TITLE": "Cesta",
     "CART_WIDGET_BUTTON": "Pedir",
+    "CART_EMPTY": "Tu cesta está vacía",
+    "OPENING_HOURS_SINGLE": "Abierto el {{day}} de {{open}} a {{close}}",
+    "OPENING_HOURS_RANGE": "Reparto de {{fromDay}} a {{toDay}}, de {{open}} a {{close}}",
+    "DATEPICKER_TODAY": "[Hoy]",
+    "DATEPICKER_TOMORROW": "[Mañana]",
     "DASHBOARD_UNASSIGNED": "No asignado",
     "ENABLED": "Activado",
     "DISABLED": "Desactivado",
@@ -41,7 +46,7 @@
     "ORDER_FOLLOW_STEP_3_DESCRIPTION": "Tu pedido está listo - ¡el mensajero está de camino!",
     "ORDER_FOLLOW_STEP_4_TITLE": "¡Pedido entregado!",
     "ORDER_FOLLOW_STEP_4_DESCRIPTION": "¡Buen provecho!",
-    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT": "Entrega estimada a las {deliveryTime}.",
-    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT_WITH_DATE": "Entrega estimada a las {deliveryTime} del {deliveryDate}."
+    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT": "Entrega estimada a las {{deliveryTime}}.",
+    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT_WITH_DATE": "Entrega estimada a las {{deliveryTime}} del {{deliveryDate}}."
     }
 }

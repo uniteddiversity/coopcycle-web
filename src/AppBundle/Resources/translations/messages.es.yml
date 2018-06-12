@@ -300,6 +300,7 @@ demo.disclaimer: <i class="fa fa-bullhorn"></i>  Bienvenido a la demo de la plat
 demo.disclaimer.subtitle: <a target="_blank" href="https://coopcycle.org/en/help/how-to-use-the-demo/"><i class="fa fa-info-circle"></i>  ¿Cómo usar la demo?</a>
 
 cart.widget.title: Tus detalles de entrega
+cart.widget.button: Pedir
 
 form.geojson_upload.file: Archivo
 form.store_type.pricing_rule_set.label: Tarifa

@@ -138,7 +138,7 @@ class Cart extends React.Component
         <div className="cart__items">{cartItemComponents}</div>
       )
     } else {
-      cartContent = ( <div className="alert alert-warning">Votre panier est vide</div> )
+      cartContent = ( <div className="alert alert-warning">{i18n.t("CART_EMPTY")}</div> )
     }
 
     const itemCount = _.reduce(items, function(memo, item) {

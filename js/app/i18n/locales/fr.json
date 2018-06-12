@@ -2,6 +2,11 @@
   "common": {
     "CART_TITLE": "Panier",
     "CART_WIDGET_BUTTON": "Commander",
+    "CART_EMPTY": "Votre panier est vide",
+    "OPENING_HOURS_SINGLE": "Ouvert le {{day}} de {{open}} à {{close}}",
+    "OPENING_HOURS_RANGE": "Livraisons possibles du {{fromDay}} au {{toDay}} de {{open}} à {{close}}",
+    "DATEPICKER_TODAY": "[Aujourd'hui]",
+    "DATEPICKER_TOMORROW": "[Demain]",
     "DASHBOARD_UNASSIGNED": "Non assignées",
     "ENABLED": "Activé",
     "DISABLED": "Désactivé",
@@ -41,7 +46,7 @@
     "ORDER_FOLLOW_STEP_3_DESCRIPTION": "Votre commande est prête - votre livreur arrive!",
     "ORDER_FOLLOW_STEP_4_TITLE": "Commande livrée!",
     "ORDER_FOLLOW_STEP_4_DESCRIPTION": "Régalez vous!",
-    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT": "Livraison prévue à {deliveryTime}.",
-    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT_WITH_DATE": "Livraison prévue à {deliveryTime} le {deliveryDate}."
+    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT": "Livraison prévue à {{deliveryTime}}.",
+    "ORDER_FOLLOW_DELIVERY_EXPECTED_AT_WITH_DATE": "Livraison prévue à {{deliveryTime}} le {{deliveryDate}}."
   }
 }
