@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import {toggleShowFinishedTasks, setSelectedTagList, toggleShowUntaggedTasks} from "../store/actions"
-
+import i18n from '../../i18n'
 
 class Filters extends Component {
 
@@ -41,13 +41,13 @@ class Filters extends Component {
         <li>
           <a onClick={(e) => this.onClick(e)}>
             { showFinishedTasks ? (<i className="fa fa-check dashboard__filters__icon"></i>) : (<i className="dashboard__filters__icon"></i>)}
-            Tâches terminées
+            { i18n.t('ADMIN_DASHBOARD_FILTERS_COMPLETED_TASKS') }
           </a>
         </li>
         <li>
           <a onClick={(e) => this.onShowUntaggedClick(e)}>
             { showUntaggedTasks ? (<i className="fa fa-check dashboard__filters__icon"></i>) : (<i className="dashboard__filters__icon"></i>)}
-            Tâches non tagguées
+            { i18n.t('ADMIN_DASHBOARD_FILTERS_NONTAGGED_TASKS') }
           </a>
         </li>
         { tagsComponents }

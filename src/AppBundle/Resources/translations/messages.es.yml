@@ -1,4 +1,4 @@
-global.changesSaved: Your changes were saved.
+global.changesSaved: Tus cambios han sido guardados.
 
 navbar.login: Iniciar sesión
 navbar.myAccount: Mi cuenta
@@ -64,7 +64,7 @@ adminDashboard.restaurants.createNew: Crear restaurante
 adminDashboard.task.form.courier: Courier
 adminDashboard.task.form.status: Status
 adminDashboard.task.form.notes: Notes
-adminDashboard.task.form.notes.placeholder: Enter details about task's end
+adminDashboard.task.form.notes.placeholder: Añade detalles sobre la finalización de la tarea
 
 adminDashboard.users.title: Usuarios
 adminDashboard.users.edit: Editar
@@ -73,7 +73,7 @@ adminDashboard.users.roles: Roles
 adminDashboard.users.editUser: Editar usuario
 adminDashboard.users.edit.addStore: Añadir tienda
 adminDashboard.users.edit.addRestaurant: Añadir restaurante
-adminDashboard.users.createNew: Add user
+adminDashboard.users.createNew: Añadir usuario
 
 adminDashboard.settings.title: Ajustes
 
@@ -113,8 +113,8 @@ delivery.status.DISPATCHED.verb: Asignar
 delivery.status.PICKED.verb: Recoger
 delivery.status.DELIVERED.verb: Entregar
 
-deliveryForm.noPriceWarning: No se ha podido calcular un precio. Por favor introduzca un precio.
-deliveryForm.noPriceFromPricingWarning: No se ha podido calcular un precio a partir de las normas de tarificación. Introdúzcalo manualmente o edite la tarificación.
+deliveryForm.noPriceWarning: No se ha podido calcular un precio. Por favor introduce un precio.
+deliveryForm.noPriceFromPricingWarning: No se ha podido calcular un precio a partir de las normas de tarificación. Introdúcelo manualmente o edita la tarificación.
 
 delivery.list.status: Estado
 delivery.list.date: Fecha
@@ -132,48 +132,48 @@ help.title: Ayuda
 help.home: Inicio
 
 
-norestaurantfound: No hay ningún restaurante abierto a ésta hora!<br>Pruba un horario distinto.
+norestaurantfound: ¡No hay ningún restaurante abierto a ésta hora!<br>Pruba con un horario distinto.
 
-localBusiness.form.orderingDelayMinutes: Additional delay before ordering
-localBusiness.form.orderingDelayMinutes.help: Use these fields to add some time before the customer can order. This setting don't change the times kept for cooking (20 minutes) and cycling (25 minutes).
-localBusiness.form.orderingDelayDays: Day(s)
-localBusiness.form.orderingDelayHours: Hour(s)
-localBusiness.form.name: Name
-localBusiness.form.legalName: Legal name
-localBusiness.form.website: Website
-localBusiness.form.telephone: Telephone
-localBusiness.form.openingHours: Opening hours
-localBusiness.form.deliveryPerimeterExpression: Zone or max distance for delivery
+localBusiness.form.orderingDelayMinutes: Tiempo adicional antes del pedido
+localBusiness.form.orderingDelayMinutes.help: Usa éstos campos para añadir un tiempo adicional antes del pedido de un usuario. Esta opción no cambia los tiempos considerados para la preparación de la comida (20 minutos) y el reparto (25 minutos).
+localBusiness.form.orderingDelayDays: Día(s)
+localBusiness.form.orderingDelayHours: Hora(s)
+localBusiness.form.name: Nombre
+localBusiness.form.legalName: Nombre legal
+localBusiness.form.website: Sitio web
+localBusiness.form.telephone: Teléfono
+localBusiness.form.openingHours: Horario de apertura
+localBusiness.form.deliveryPerimeterExpression: Zona o máxima distancia de reparto
 
 
 restaurant.available: Disponible
 restaurant.unavailable: No disponible
 restaurant.disabledWarning: |
-  Éste restaurante está desactivado así que los visitantes no verán ésta página. Si quiéres, puedes <a target="_blank" href="%restaurantEditUrl%">activarlo en el panel de administración</a>.
+  Éste restaurante está desactivado así que los visitantes no verán ésta página. Si quieres, puedes <a target="_blank" href="%restaurantEditUrl%">activarlo en el panel de administración</a>.
 restaurant.closedWarning: |
   Éste restaurante está actualmente cerrado pero puedes hacer un pedido para más tarde.
 restaurant.temporaryClosedWarning: |
   Éste restaurante está cerrado temporalmente pero puedes hacer un pedido para más tarde.
 restaurant.form.enabled.tooltip: |
   Un restaurante desactivado no és visible en la plataforma, no aparece en los resultados de búsqueda ni es accesible para los visitantes.
-restaurant.form.temporaryClosingRule: Si desea cerrar el restaurante temporalmente siga el siguiente enlace
+restaurant.form.temporaryClosingRule: Si deseas cerrar el restaurante temporalmente sigue el siguiente enlace
 restaurant.form.accessPlanning: Acceder al calendario
 restaurant.form.createRestaurant: Crear restaurante
 restaurant.form.save: Guardar
 restaurant.contract.title: Contrato
-restaurant.deliveryPerimeterExpression.title: Delivery perimeter
-restaurant.deliveryPerimeterExpression.help: Define the accepted perimeter for deliveries. You can chose a radius (in km) or a <a target="_blank" href="%zoneHelpUrl%">zone</a>.
+restaurant.deliveryPerimeterExpression.title: Perímetro de entrega
+restaurant.deliveryPerimeterExpression.help: Define el perímetro de entrega aceptable. Puedes escoger un radio (en km) o una <a target="_blank" href="%zoneHelpUrl%">zona</a>.
 restaurant.stripe_account.title: Cuenta Stripe
 restaurant.contract.minimumCartAmount.label: Pedido mínimo
-restaurant.contract.flatDeliveryPrice.label: Suma cargada por la plataforma
-restaurant.contract.flatDeliveryPrice.help: Esta suma no se mostrará en el carrito y no aumentará el precio total
-restaurant.contract.customerAmount.label: Suma pagada por el cliente
-restaurant.contract.customerAmount.help: Esta suma se mostrará en el carrito y aumentará el precio total
+restaurant.contract.flatDeliveryPrice.label: Cantidad cargada por la plataforma
+restaurant.contract.flatDeliveryPrice.help: Ésta cantidad no se mostrará en el carrito y no aumentará el precio total
+restaurant.contract.customerAmount.label: Cantidad pagada por el cliente
+restaurant.contract.customerAmount.help: Ésta cantidad se mostrará en el carrito y aumentará el precio total
 restaurant.contract.feeRate.label: Porcentaje de comisión
-restaurant.contract.feeRate.help: Este porcentaje será retenido por la plataforma en el total de los productos
+restaurant.contract.feeRate.help: Este porcentaje será retenido por la plataforma del total de los productos
 restaurant.contract.onlyAdmin: Únicamente un administrador puede editar las condiciones de contrato.
-restaurant.contract.noContract: No existen condiciones de contrato. Por favor contacte a un administrador.
-restaurant.menus.noMenus: No has creado un menú por el momento.
+restaurant.contract.noContract: No existen condiciones de contrato. Por favor contacta con un administrador.
+restaurant.menus.noMenus: Aún no has creado ningún menú.
 restaurant.menus.activate: Activar
 restaurant.menus.activated: El menú « %menu_name% » ha sido activado. Ahora se mostrará en la página del restaurante.
 
@@ -197,15 +197,15 @@ restaurant.product_options.help: |
   <br>
   Permiten, por ejemplo, agregar suplementos o elegir los elementos de un menú (acompañamiento, bebida…)
   <br>
-  Para cada opción, puede definir una lista de valores
+  Para cada opción, puedes definir una lista de valores
 restaurant.product_options.list.values: Valores
 
 restaurant.form.uploadImage: Subir una imagen
 restaurant.form.add: Añadir
 
 profile.addresses.breadcrumb: Direcciones
-profile.addresses.empty: Aún no hay direcciones guardadas!
-profile.orders.empty: No existen pedidos!
+profile.addresses.empty: ¡Aún no hay direcciones guardadas!
+profile.orders.empty: ¡No existe ningún pedido!
 profile.myDeliveries: Mis entregas
 profile.myStores: Mis tiendas
 profile.myRestaurants: Mis restaurantes
@@ -229,15 +229,15 @@ profile.addresses.save: Guardar
 profile.addresses.add: Añadir
 profile.editProfile: Editar perfil
 profile.payment.title: Pago
-profile.payment.stripeConnected: Tu cuenta Stripe está conectada
+profile.payment.stripeConnected: Tu cuenta Stripe ha sido conectada
 profile.username: Usuario
 profile.email: Email
 profile.telephone: Teléfono
 profile.familyName: Apellidos
 profile.givenName: Nombre
-profile.managedStores: Stores managed by user
-profile.managedRestaurants: Restaurants managed by user
-profile.accountType: Account type
+profile.managedStores: Tiendas gestionadas por el usuario
+profile.managedRestaurants: Restaurantes gestionados por el usuario
+profile.accountType: Tipo de cuenta
 
 order.payment.title: Tu información de pago
 order.payment.expiration.label: Caducidad
@@ -278,16 +278,16 @@ task.form.timeWindow: Periodo
 task.form.cancel: Cancelar
 task.form.showHistory: Mostrar historial
 task.form.modal.moreOptions: Más opciones
-task.form.edit: Modify task %id%
-task.form.dateRange: Date range
-task.form.finish: Finish task
-task.form.details: Task details
-task.form.finish.info: Task is finished with status %status%. You can change the note that was written at completion.
+task.form.edit: Editar tarea %id%
+task.form.dateRange: Rango de fechas
+task.form.finish: Finalizar tarea
+task.form.details: Detalles de la tarea
+task.form.finish.info: La tarea ha sido finalizada con el estado %status%. Puedes cambiar la nota que se añadió al completarla.
 
 
-task.status.done: Success
-task.status.failed: Failure
-task.status.todo: To do
+task.status.done: Éxito
+task.status.failed: Fracaso
+task.status.todo: Pendiente
 
 form.task_upload.file: Archivo
 form.task_complete.done.label: Completada
@@ -296,7 +296,7 @@ task.type.PICKUP: Recogida
 task.type.DROPOFF: Entrega
 
 
-demo.disclaimer: <i class="fa fa-bullhorn"></i>  Bienvenido a a demo de la plataforma <a target="_blank" href="https://coopcycle.org">CoopCycle</a>.
+demo.disclaimer: <i class="fa fa-bullhorn"></i>  Bienvenido a la demo de la plataforma <a target="_blank" href="https://coopcycle.org">CoopCycle</a>.
 demo.disclaimer.subtitle: <a target="_blank" href="https://coopcycle.org/en/help/how-to-use-the-demo/"><i class="fa fa-info-circle"></i>  ¿Cómo usar la demo?</a>
 
 cart.widget.title: Tus detalles de entrega
@@ -322,14 +322,14 @@ form.delivery.store.placeholder: Busca una tienda…
 form.delivery.price.label: Precio
 
 form.address.streetAddress.label: Dirección
-form.address.streetAddress.error.noLatLng: Seleccione una dirección en el menú desplegable
+form.address.streetAddress.error.noLatLng: Selecciona una dirección en el menú desplegable
 form.address.name.label: Nombre
 form.address.name.placeholder: Casa, oficina…
 form.address.addressLocality.label: Ciudad
 form.address.postalCode.label: Código postal
 form.address.floor.label: Piso
 form.address.description.label: Instrucciones
-form.address.description.placeholder: 2da puerta a la izquierda…
+form.address.description.placeholder: 2ª puerta a la izquierda…
 
 form.pricing_rule_set.name.label: Nombre
 form.pricing_rule_set.rules.label: Reglas
@@ -342,9 +342,9 @@ form.settings.stripe_publishable_key.help: |
 form.settings.stripe_secret_key.label: Clave secreta de stripe
 form.settings.stripe_secret_key.help: |
   Crea una cuenta Stripe para obtener tu <a href="https://stripe.com/docs/dashboard#api-keys">clave secreta</a>
-form.settings.stripe_connect_client_id.label: Stripe Connect identifier
+form.settings.stripe_connect_client_id.label: Identificador Stripe Connect
 form.settings.stripe_connect_client_id.help: |
-  Get the identifier on the <a href="https://dashboard.stripe.com/account/applications/settings">parameters page</a>
+  Puedes conseguir tu identificador Stripe en la <a href="https://dashboard.stripe.com/account/applications/settings">página de parámetros</a>
 form.settings.stripe_livemode.label: Usar Stripe en modo « live »
 
 form.settings.google_api_key.label: Clave API de google
@@ -354,19 +354,19 @@ form.settings.latlng.label: Coordinadas geográficas
 form.settings.latlng.help: |
   Especifica la latitud y longitud por defecto del mapa. Puedes obtenerla en <a href="https://www.latlong.net/">latlong.net</a>
 form.settings.default_tax_category.label: IVA para entregas
-form.settings.default_tax_category.help: Establezca la tasa de IVA para entregas
-form.settings.administrator_email.label: Administrator email
-form.settings.administrator_email.help: Notifications will be sent to this email
+form.settings.default_tax_category.help: Establece la tasa de IVA para entregas
+form.settings.administrator_email.label: Correo del administrador
+form.settings.administrator_email.help: Las notificaciones se enviarán a éste correo
 
 form.registration.username.help: |
-  Su nombre de usuario no puede tener más de 15 caracteres.
+  Un nombre de usuario no puede tener más de 15 caracteres.
   Un nombre de usuario solo puede contener caracteres alfanuméricos (letras A-Z, números 0-9) con la excepción de los guiones bajos.
 
-form.local_business.stripe_account.placeholder: Escoge una cueanta Stripe
+form.local_business.stripe_account.placeholder: Selecciona una cuenta Stripe
 form.local_business.stripe_account.label: Cuenta Stripe
-form.local_business.stripe_account.success: Stripe account created successfully.
-form.local_business.stripe_account.admin_warning: No Stripe account created for this restaurant. The Stripe account must be created by the restaurant owner.
-form.local_business.stripe_account.admin_success: Stripe account created and linked correctly by the restaurant owner.
+form.local_business.stripe_account.success: Cuenta Stripe creada con éxito.
+form.local_business.stripe_account.admin_warning: No se ha añadido ninguna cuentra Stripe. El propietario del restaurante tiene que crearla.
+form.local_business.stripe_account.admin_success: Cuenta Stripe creada y enlazada correctamente por el propietario del restaurante.
 form.local_business.stripe_account.save_warning: You need to save this restaurant once before linking it to a Stripe account.
 form.local_business.stripe_account.need_stripe_account: |
   You didn't create a Stripe account for this restaurant yet. Stripe is a payment platform which allows us to handle securely card payments and transfers to your bank account.<br>
